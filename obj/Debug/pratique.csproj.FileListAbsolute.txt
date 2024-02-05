@@ -1,0 +1,12 @@
+C:\Users\Zakaria\source\repos\pratique\bin\Debug\pratique.exe.config
+C:\Users\Zakaria\source\repos\pratique\bin\Debug\pratique.exe
+C:\Users\Zakaria\source\repos\pratique\bin\Debug\pratique.pdb
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.csproj.AssemblyReference.cache
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.Properties.Resources.resources
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.csproj.GenerateResource.cache
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.csproj.CoreCompileInputs.cache
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.exe
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.pdb
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.formClient.resources
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.formCompte.resources

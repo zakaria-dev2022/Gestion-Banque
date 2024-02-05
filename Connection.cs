@@ -83,7 +83,7 @@ namespace pratique
 
 
 
-        public static DataTable ObtenirDonnees(string table)
+        public static DataTable ObtenirDonnees(string query)
         {
             DataTable dataTable = new DataTable();
 
@@ -94,7 +94,7 @@ namespace pratique
                 {
                     cnx.Open();
 
-                    string query = $"SELECT * FROM {table}"; // Remplacez "VotreTable" par le nom réel de votre table
+                   // string query = $"SELECT * FROM {table}"; // Remplacez "VotreTable" par le nom réel de votre table
 
                     using (SqlDataAdapter adapter = new SqlDataAdapter(query, cnx))
                     {

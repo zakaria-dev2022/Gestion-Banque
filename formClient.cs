@@ -36,8 +36,7 @@ namespace pratique
         {
             Connection.CloseConnection();
             //Connection dbOperations = new Connection();
-            DataTable dataTable = Connection.ObtenirDonnees("clients");
-
+            DataTable dataTable = Connection.ObtenirDonnees("select * from clients");
             // Lier le DataTable au DataGridView
             tableau.DataSource = dataTable;
 

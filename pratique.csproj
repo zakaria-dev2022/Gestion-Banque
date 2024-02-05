@@ -61,6 +61,18 @@
     <Compile Include="formCompte.Designer.cs">
       <DependentUpon>formCompte.cs</DependentUpon>
     </Compile>
+    <Compile Include="formTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTransactions.Designer.cs">
+      <DependentUpon>formTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transactions.cs" />
@@ -69,6 +81,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formCompte.resx">
       <DependentUpon>formCompte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTransactions.resx">
+      <DependentUpon>formTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

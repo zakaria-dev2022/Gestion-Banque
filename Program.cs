@@ -16,7 +16,7 @@ namespace pratique
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formCompte());
+            Application.Run(new Menu());
         }
     }
 }

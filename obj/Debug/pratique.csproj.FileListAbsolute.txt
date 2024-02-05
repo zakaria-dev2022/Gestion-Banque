@@ -10,3 +10,5 @@ C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.exe
 C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.pdb
 C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.formClient.resources
 C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.formCompte.resources
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.formTransactions.resources
+C:\Users\Zakaria\source\repos\pratique\obj\Debug\pratique.Menu.resources

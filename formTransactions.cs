@@ -36,7 +36,7 @@ namespace pratique
         {
             Connection.CloseConnection();
             //Connection dbOperations = new Connection();
-            DataTable dataTable = Connection.ObtenirDonnees("SELECT t.id,cm.*,t.montant,t.type_transactions,t.date_transactions FROM transactions t JOIN comptes cm ON t.compte_id = cm.id;");
+            DataTable dataTable = Connection.ObtenirDonnees("SELECT t.id as Transactions_Id,cm.id as Compte_Id,cm.client_id,cl.nom,cl.prenom,cl.adresse,cl.tel,cm.solde,cm.type_compte,cm.date_ouverture, t.montant,t.type_transactions,t.date_transactions FROM transactions t \r\nJOIN comptes cm ON t.compte_id = cm.id\r\nJOIN clients cl ON cm.client_id = cl.id\r\n");
             // Lier le DataTable au DataGridView
             tableau.DataSource = dataTable;
 
